@@ -36,9 +36,25 @@ switch (val) {
     }
 break;
 
-case 2:{
-    
-}
+case 2:
+    System.out.println("HUr lång e du");
+    int längd2 = scanner.nextInt();
+    System.out.println("hUR Gammal är du");
+    int ålder = scanner.nextInt();
+
+    if ( längd2 >= 120 && ålder >=7){
+        if(biljetter >=2){
+            biljetter -=2;
+            System.out.println("Du får åka du har -2"+ biljetter);
+        }
+        else{
+            System.out.println("Inte tillräcklig kupinger");
+        }
+    }
+    else{
+System.out.println("To short buddy");
+    }
+
     }
 }
         
