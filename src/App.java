@@ -14,7 +14,33 @@ public class App {
 
         int val = scanner.nextInt();
 
+switch (val) {
+    case 1:{
+    System.out.println("hur lång e du");
+    int längd1 =scanner.nextInt();
 
-        
+    if(längd1 >=140){
+        if(biljetter > 3 ){
+            biljetter-=3;
+            System.out.println("du får åka lets go du har -3 kuponger" + biljetter);
+        }
+        else
+        {
+            System.out.println("Inte tillräckligt mycket kuponger");
+        }
+    }
+    else {
+        System.out.println("Du är för kort");
+    }
+    
+    }
+break;
+
+case 2:{
+    
+}
     }
 }
+        
+    }
+
